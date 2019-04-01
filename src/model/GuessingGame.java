@@ -58,7 +58,7 @@ public class GuessingGame {
         } else if (lastGuess < number) {
             System.out.println("You guessed too low");
             guessesRemaining--;
-            System.out.printf("%s %d", "Guesses remaining =", guessesRemaining);
+            System.out.printf("%s %d\n", "Guesses remaining =", guessesRemaining);
         } else {
             System.out.println("You guessed too high");
             guessesRemaining--;
